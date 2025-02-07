@@ -1,6 +1,5 @@
 import { Box } from "@mui/material";
-import BackgroundImage from "/GitHub Repository/PichonDev---Front/PichonDev-Frontend/PichonDevFront/src/assets/assets-login/BackgroundImage.jpg"
-
+import BackgroundImage from "../../../assets/assets-login/BackgroundImage.jpg"
 
 const BackgroundPageLogin = () => {
     return (

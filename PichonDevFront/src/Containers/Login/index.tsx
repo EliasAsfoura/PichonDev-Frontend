@@ -5,37 +5,26 @@ import LoginBox from "./Components/LoginBox";
 import BackgroundPageLogin from "./Components/BackgroundLogin"
 
 
-  //       RAMA PRINCIPAL        //
+//       RAMA PRINCIPAL        //
 
 const Login = () => {
-return (
-<>
-
- <HeaderLogin></HeaderLogin>
-    
-    
-    <Box sx={{ position: "relative", width: "100vw", height: "100vh" }}>
-    <BackgroundPageLogin /> {/* Este será el fondo */}
-    <Box
-      sx={{
-        position: "relative",
-        zIndex: 1, // Se asegura de que los botones estén sobre la imagen
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-      }}
-    >
-
-
- <LoginBox></LoginBox>
- 
- 
- </Box>
-</Box>
-
-</>
-      )
+  return (
+    <>
+      <HeaderLogin/>
+      <BackgroundPageLogin /> {/* Este será el fondo */}
+      <Box
+        sx={{
+          position: "absolute", // Lo saca del flujo normal y permite posicionarlo en la pantalla
+          zIndex: 3, // Se asegura de que los botones estén sobre la imagen
+          marginRight:"5%",
+          top:"30%",
+          left:"70%"
+        }}
+      >
+        <LoginBox />
+      </Box>
+    </>
+  )
 }
 
 

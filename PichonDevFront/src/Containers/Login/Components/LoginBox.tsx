@@ -3,20 +3,6 @@ import { Box, Button, Checkbox, FormControlLabel, TextField, Typography } from "
 
 const LoginBox = () => {
     return (
-      
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: "flex-end",
-          alignItems: "center", // Alinea a la derecha
-          height: "100vh",
-          backgroundImage: "url(https://source.unsplash.com/random/1600x900/?code,technology)",
-          backgroundSize: "cover",
-          backgroundPosition: "right",
-          marginTop: "0px", // Para que no lo tape el Header
-          paddingLeft: "500px", // Ajuste de margen derecho
-        }}
-      >
         <Box
           sx={{
             width: "400px",
@@ -45,9 +31,6 @@ const LoginBox = () => {
             Forgot Password?
           </Typography>
         </Box>
-      </Box>
-  
-     
     );
   };
 
