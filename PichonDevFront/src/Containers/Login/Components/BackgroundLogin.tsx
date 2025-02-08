@@ -14,7 +14,7 @@ const BackgroundPageLogin = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          zIndex: -1, // Envía el fondo detrás de otros elementos
+          zIndex: -1,
         }}
       />
     );

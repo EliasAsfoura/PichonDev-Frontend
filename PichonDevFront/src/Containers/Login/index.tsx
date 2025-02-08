@@ -11,14 +11,14 @@ const Login = () => {
   return (
     <>
       <HeaderLogin/>
-      <BackgroundPageLogin /> {/* Este será el fondo */}
+      <BackgroundPageLogin />
       <Box
         sx={{
-          position: "absolute", // Lo saca del flujo normal y permite posicionarlo en la pantalla
-          zIndex: 3, // Se asegura de que los botones estén sobre la imagen
-          marginRight:"5%",
-          top:"30%",
-          left:"70%"
+          position: "absolute", 
+          zIndex: 3, 
+          marginLeft: "70%",
+          marginTop:"12%",
+
         }}
       >
         <LoginBox />
