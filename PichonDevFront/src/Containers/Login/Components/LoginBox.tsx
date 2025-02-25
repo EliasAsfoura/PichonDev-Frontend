@@ -5,9 +5,9 @@ const LoginBox = () => {
   return (
     <Box
       sx={{
-        width: "110%",
-        padding: "30px",
-        borderRadius: "10px",
+        width: "50vh",
+        padding: "5vh",
+        borderRadius: "1vh",
         backgroundColor: "rgb(0, 0, 0)",
         display: "flex",
         flexDirection: "column",
